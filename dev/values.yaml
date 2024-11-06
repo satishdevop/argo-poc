@@ -3,3 +3,5 @@ repo:
   targetVersion: "0.1.0"
 ingress:
   enabled: false  # Set a default value for enabled
+service:
+  type: ClusterIP  # Set to your desired service type (e.g., ClusterIP, NodePort, LoadBalancer)
