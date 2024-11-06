@@ -1,6 +1,6 @@
 repo:
   name : "apptest"
-  targetVersion: "0.1.0"
+  targetVersion: "0.2.0"
 ingress:
   enabled: false  # Set a default value for enabled
 service:
