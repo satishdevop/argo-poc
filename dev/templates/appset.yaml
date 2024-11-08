@@ -33,5 +33,4 @@ spec:
           prune: true  # Removes resources that are no longer defined in the chart
           selfHeal: true  # Automatically sync if drift is detected
         syncOptions:
-            syncOptions:
-              - DryRun=true
+          - DryRun=true
