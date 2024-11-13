@@ -29,8 +29,8 @@ spec:
         server: https://kubernetes.default.svc
         namespace: "{{`{{ namespace }}`}}"
       syncPolicy:
-        automated:
-          prune: true  # Removes resources that are no longer defined in the chart
-          selfHeal: true  # Automatically sync if drift is detected
-        # syncOptions:
-        #   - DryRun=true
+        # automated:
+        #   prune: true  # Removes resources that are no longer defined in the chart
+        #   selfHeal: true  # Automatically sync if drift is detected
+        syncOptions:
+          - DryRun=true
