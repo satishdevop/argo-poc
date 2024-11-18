@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://artifacts.i.mercedes-benz.com/artifactory/sqms-helm-virtual
+       // repoURL: 
         chart: "{{`{{ name }}`}}"
         targetRevision: "{{`{{ targetRevision }}`}}"
         helm:
